@@ -39,7 +39,7 @@ header.main-header {
 .cta {
     display: inline-block;
     min-width: 95px;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
@@ -63,11 +63,12 @@ header.main-header {
 .brand img {
     width: 145px;
     vertical-align: middle;
-
 }
+
 .main-header .nav-center {
     width: 45%;
 }
+
 .main-header .nav-right {
     width: 35%;
     text-align: right;
@@ -111,11 +112,64 @@ li > a {
 .hero .hero-text {
     position: absolute;
     top: 50%;
-    color:#fff;
     transform: translateY(-50%);
+    color:#fff;
 }
 
 .hero-text > h1 {
     margin-bottom: 38px;
+    font-weight: 400;
     font-size: 60px;
+}
+
+.slogan {
+    padding: 50px 0;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #d3d3d3;
+}
+
+.slogan > h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.slogan h2 + span {
+    font-size: 18px;
+    color:#818181;
+}
+
+/*Fluentify offerta*/
+section.offer {
+border-bottom: 1px solid #eaeaea ;
+}
+
+section.offer .col {
+    width: calc(100% / 3);
+    padding: 35px;
+    text-align: center;
+}
+section.offer .col:last-child {
+    margin-right: 0px;
+}
+
+section.offer .col img {
+    height: 180px ;
+}
+
+section.offer .col h3 {
+    margin-top: 30px;
+    font-size: 31px;
+    font-weight: 400;
+    color: #7ebb04;
+}
+
+section.offer .col hr {
+    width: 90px;
+    margin: 32px auto;
+}
+
+section.offer .col p {
+    color: #8a8a8a ;
 }

@@ -12,6 +12,11 @@ header.main-header {
     font-size: 12px;
     background: #10325a;
 }
+h1,
+h2,
+h3 {
+    font-weight: 400;
+}
 
 
 /* UTILITIES */
@@ -118,7 +123,6 @@ li > a {
 
 .hero-text > h1 {
     margin-bottom: 38px;
-    font-weight: 400;
     font-size: 60px;
 }
 
@@ -161,7 +165,6 @@ section.offer .col img {
 section.offer .col h3 {
     margin-top: 30px;
     font-size: 31px;
-    font-weight: 400;
     color: #7ebb04;
 }
 
@@ -170,6 +173,31 @@ section.offer .col hr {
     margin: 32px auto;
 }
 
-section.offer .col p {
+section.offer .col p,
+.test .col-width-50 div:nth-child(2) {
     color: #8a8a8a ;
+}
+
+/*Fluentify test*/
+
+.test img {
+    height: 530px;
+}
+
+.test > .wrap-container {
+    padding: 50px;
+}
+
+.test h2 {
+    font-size: 30px;
+}
+
+.test .col-width-50 div:nth-child(2) {
+    margin: 25px 0;
+}
+
+/* FOOTER CONTENT  */
+footer  {
+    padding: 60px 0;
+    background-color: #d3d3d3;
 }

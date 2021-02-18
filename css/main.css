@@ -6,7 +6,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* body {
+    padding-top: 90px;
+} */
+
 header.main-header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
     line-height: 90px;
     text-transform: uppercase;
     font-size: 12px;
@@ -103,7 +110,6 @@ li > a {
     height: 600px;
     background-color: #10325a;
     background-image: url('../img/background-header.png');
-    /* background-size: contain; non mi permette di spostare position per asse y  */
     background-size: 1200px;
     background-repeat: no-repeat;
     background-position: 114% 110%;
@@ -179,7 +185,6 @@ section.offer .col p,
 }
 
 /*Fluentify test*/
-
 .test img {
     height: 530px;
 }
@@ -199,5 +204,29 @@ section.offer .col p,
 /* FOOTER CONTENT  */
 footer  {
     padding: 60px 0;
+    vertical-align: center;
     background-color: #d3d3d3;
+}
+
+
+footer > .wrap-container div:first-child {
+    line-height: 71px;
+}
+
+footer h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+footer > .wrap-container div:nth-child(2) *:not(.cta) {
+    margin-right: 35px;
+    color: #838383;
+}
+
+footer select {
+    width: 230px;
+    background-color: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
 }
